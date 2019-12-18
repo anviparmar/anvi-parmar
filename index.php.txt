@@ -1,0 +1,5 @@
+<?php
+$ text="hello World, this is my first Alexa Skill";
+$array=array("Version"=>"1.0","response"=>"array"("outputSpeech"=>array("type"=>"PlainText"=>$text)));
+echo json_encode($array);
+?>
